@@ -533,7 +533,6 @@ section {
 
   .card__image img {
     border-radius: 16px; /* garante o arredondamento da imagem também */
-    height: 180px; /* opcional: aumenta um pouco a altura, fica mais bonito */
     object-fit: cover;
   }
   .hero__image-wrapper,
