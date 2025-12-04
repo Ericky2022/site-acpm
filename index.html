@@ -18,7 +18,7 @@
   <header class="header">
     <div class="container header__content">
       <div class="logo">
-        <img src="./logo-acpm2.png" alt="ACPM Engenharia" class="logo-img" />
+        <img src="./img/logo-acpm2.png" alt="ACPM Engenharia" class="logo-img" />
         <!-- <span class="logo__mark">ACPM</span>
         <span class="logo__text">Engenharia</span> -->
       </div>
@@ -36,45 +36,57 @@
   <main>
     <!-- HERO -->
     <section class="hero">
-      <div class="container hero__content">
-        <div class="hero__text">
-          <h1>
-            Engenharia de alto padrão<br />
-            para empresas que não aceitam menos que excelência.
-          </h1>
-          <p>
-            A ACPM Engenharia entrega soluções técnicas com precisão,
-            segurança e conformidade às normas, para projetos que exigem
-            resultado, performance e confiabilidade.
-          </p>
+  <div class="container hero__content">
+    <div class="hero__text">
+      <h1>
+        Engenharia de alto padrão<br />
+        para empresas que não aceitam menos que excelência.
+      </h1>
+      <p>
+        A ACPM Engenharia entrega soluções técnicas com precisão,
+        segurança e conformidade às normas, para projetos que exigem
+        resultado, performance e confiabilidade.
+      </p>
 
-          <div class="hero__actions">
-            <a href="#contato" class="btn btn--primary">Agendar conversa</a>
-            <a href="#servicos" class="btn btn--ghost">Ver serviços</a>
-          </div>
-
-          <div class="hero__badges">
-            <span>+X anos de atuação</span>
-            <span>Laudos, consultoria & projetos</span>
-            <span>Atendimento corporativo e industrial</span>
-          </div>
-        </div>
-
-        <div class="hero__card">
-          <h2>Projetos com segurança e precisão</h2>
-          <p>
-            Atuamos em laudos, perícias, projetos e consultoria técnica
-            para empresas, condomínios e indústrias que precisam de
-            soluções confiáveis em engenharia.
-          </p>
-          <ul>
-            <li>✔ Análise técnica especializada</li>
-            <li>✔ Conformidade com normas e legislações</li>
-            <li>✔ Foco em mitigação de riscos</li>
-          </ul>
-        </div>
+      <div class="hero__actions">
+        <a href="#contato" class="btn btn--primary">Agendar conversa</a>
+        <a href="#servicos" class="btn btn--ghost">Ver serviços</a>
       </div>
-    </section>
+
+      <div class="hero__badges">
+        <span>+X anos de atuação</span>
+        <span>Laudos, consultoria & projetos</span>
+        <span>Atendimento corporativo e industrial</span>
+      </div>
+    </div>
+
+    <!-- NOVO BLOCO COM CARD + IMAGEM -->
+    <div class="hero__side">
+      <div class="hero__card">
+        <h2>Projetos com segurança e precisão</h2>
+        <p>
+          Atuamos em laudos, perícias, projetos e consultoria técnica
+          para empresas, condomínios e indústrias que precisam de
+          soluções confiáveis em engenharia.
+        </p>
+        <ul>
+          <li>✔ Análise técnica especializada</li>
+          <li>✔ Conformidade com normas e legislações</li>
+          <li>✔ Foco em mitigação de riscos</li>
+        </ul>
+      </div>
+
+      <div class="hero__image-wrapper">
+        <img
+          src="img/projeto.png"
+          alt="Planta técnica de engenharia em detalhe"
+          class="hero__image"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <!-- SOBRE -->
     <section id="sobre" class="section section--light">
@@ -106,45 +118,55 @@
 
     <!-- SERVIÇOS -->
     <section id="servicos" class="section">
-      <div class="container">
-        <header class="section__header">
-          <h2>Serviços especializados</h2>
-          <p>
-            Soluções de engenharia desenhadas para reduzir riscos,
-            aumentar a segurança e apoiar decisões estratégicas.
-          </p>
-        </header>
+  <div class="container">
+    <header class="section__header">
+      <h2>Serviços especializados</h2>
+      <p>
+        Soluções de engenharia desenhadas para reduzir riscos,
+        aumentar a segurança e apoiar decisões estratégicas.
+      </p>
+    </header>
 
-        <div class="grid grid--3">
-          <article class="card">
-            <h3>Laudos e Perícias</h3>
-            <p>
-              Elaboração de laudos técnicos e perícias em conformidade
-              com normas, oferecendo clareza e suporte técnico para
-              tomadas de decisão.
-            </p>
-          </article>
-
-          <article class="card">
-            <h3>Consultoria em Engenharia</h3>
-            <p>
-              Acompanhamento técnico estratégico para empresas que
-              buscam alinhar segurança, performance operacional e
-              otimização de recursos.
-            </p>
-          </article>
-
-          <article class="card">
-            <h3>Projetos & Adequações</h3>
-            <p>
-              Desenvolvimento de projetos e estudos para adequação
-              às normas, melhoria de infraestrutura e mitigação de
-              riscos estruturais e operacionais.
-            </p>
-          </article>
+    <div class="grid grid--3">
+      <article class="card">
+        <div class="card__image">
+          <img src="img/prancheta.png" alt="Laudos e perícias em engenharia" />
         </div>
-      </div>
-    </section>
+        <h3>Laudos e Perícias</h3>
+        <p>
+          Elaboração de laudos técnicos e perícias em conformidade
+          com normas, oferecendo clareza e suporte técnico para
+          tomadas de decisão.
+        </p>
+      </article>
+
+      <article class="card">
+        <div class="card__image">
+          <img src="img/engenheiro.png" alt="Consultoria técnica em engenharia" />
+        </div>
+        <h3>Consultoria em Engenharia</h3>
+        <p>
+          Acompanhamento técnico estratégico para empresas que
+          buscam alinhar segurança, performance operacional e
+          otimização de recursos.
+        </p>
+      </article>
+
+      <article class="card">
+        <div class="card__image">
+          <img src="img/projeto-mesa.png" alt="Projetos e adequações técnicas" />
+        </div>
+        <h3>Projetos & Adequações</h3>
+        <p>
+          Desenvolvimento de projetos e estudos para adequação
+          às normas, melhoria de infraestrutura e mitigação de
+          riscos estruturais e operacionais.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
 
     <!-- PROJETOS -->
     <section id="projetos" class="section section--light">
